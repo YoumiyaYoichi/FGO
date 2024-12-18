@@ -147,5 +147,36 @@
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
 			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
 			"Patras","Lamia","Nafplion","Apolyton"]
+	},
+	{
+                "name": "British Lostbelt",
+		"leaderName": "Morgan",
+		"adjective": ["British"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Morgan",
+
+                "startIntroPart1": "Winter Queen, the witch who rules over the fairy kingdom. You rule over the entire Britain with terror, maintaining this fragile and sinful land. The era of humanity has come to an end, and Britain is a paradise exclusively for fairies. With the help of fairy knights, no one dares to resist your rule.",
+                "startIntroPart2": "The gods who were brutally killed will return, and the hollow insects will envelop the sky over Britain. The calamity of the fairies has already arrived - it is time to repay their sins. Can you protect this kingdom and your hopes?",
+
+		"declaringWar": "...Let all within my sight burn to ash.",
+		"attacked": "Good... Very good.Beg for forgiveness at my feet.",
+		"defeated": "Unbelievable. In my shame, I nearly forgot myself...",
+		"introduction": "I am the queen of Faerie Britain, who still curses Proper Human History.",
+
+		"neutralHello": "Consider this an honor.",
+		"hateHello": "Insolent knave. Give up.",
+
+		"tradeRequest": "Don't dwell on things too much. It's more fun that way.",
+
+		"outerColor": [8,46,84],
+		"innerColor": [0,255,255],
+		"uniqueName": "One Who Crosses the Sea of Stars",
+		"uniques": ["[Great Scientist] is earned [50]% faster","[+15]% Strength <when fighting units from a Civilization with less Cities than you>","[+1 Science] from every [Coast] <after discovering [Education]>","[+1 Culture] from every [Atoll] <after discovering [Sientific Theory]>","[+1 Culture] from every [Coast] <after discovering [Radio]>"]
+		"cities":["Olympus","Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
+			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+			"Patras","Lamia","Nafplion","Apolyton"]
 	}
 ]
