@@ -52,7 +52,7 @@
 
 		"outerColor": [255, 215, 0],
 		"innerColor": [255, 128, 0],
-		"uniqueName": "Eternal Frozen Fire",
+		"uniqueName": "Eternal Frozen Fire Century",
 		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]","[-100]% Unhappiness from [Population] [in all cities]","Nullifies Growth [in all cities] <when at war>"],
 		"cities":["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
 			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
@@ -81,7 +81,7 @@
 
 		"outerColor": [49,36,28],
 		"innerColor": [255,185,15],
-		"uniqueName": "The Synchronized Intellect",
+		"uniqueName": "The Synchronized Intellect Nation",
 		"uniques": ["[+4 Science] [in all cities]","[+1 Science] [Great Improvement]","[-2 Culture] [in all cities]"],
 		"cities":["Xianyang","Beijing","Shanghai","Guangzhou","Nanjing","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
 			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
@@ -111,7 +111,7 @@
 
 		"outerColor": [238,130,238],
 		"innerColor": [128,0,128],
-		"uniqueName": "Omni-Divinity",
+		"uniqueName": "Saṃsāra of Genesis and Terminus",
 		"uniques": ["[+2 Faith, +1 Culture] per [2] population [in capital]","[+2 Faith] [Great Improvement]","[+50]% Golden Age length"],
 		"cities":["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
 			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
@@ -140,8 +140,8 @@
 
 		"outerColor": [8,46,84],
 		"innerColor": [0,255,255],
-		"uniqueName": "One Who Crosses the Sea of Stars",
-		"uniques": ["[Great Scientist] is earned [50]% faster","[+15]% Strength <when fighting units from a Civilization with less Cities than you>","[+1 Science] from every [Coast] <after discovering [Education]>","[+1 Culture] from every [Atoll] <after discovering [Sientific Theory]>","[+1 Culture] from every [Coast] <after discovering [Radio]>"]
+		"uniqueName": "Interstellar Mountainous City",
+		"uniques": ["[Great Scientist] is earned [50]% faster","[+15]% Strength <when fighting units from a Civilization with less Cities than you>","[+1 Science] from every [Coast] <after discovering [Education]>","[+1 Culture] from every [Atoll] <after discovering [Sientific Theory]>","[+1 Culture] from every [Coast] <after discovering [Radio]>"],
 		"cities":["Olympus","Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
 			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
 			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
@@ -169,14 +169,46 @@
 
 		"tradeRequest": "Don't dwell on things too much. It's more fun that way.",
 
-		"outerColor": [8,46,84],
-		"innerColor": [0,255,255],
-		"uniqueName": "One Who Crosses the Sea of Stars",
-		"uniques": ["[Great Scientist] is earned [50]% faster","[+15]% Strength <when fighting units from a Civilization with less Cities than you>","[+1 Science] from every [Coast] <after discovering [Education]>","[+1 Culture] from every [Atoll] <after discovering [Sientific Theory]>","[+1 Culture] from every [Coast] <after discovering [Radio]>"]
-		"cities":["Olympus","Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
-			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
-			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
-			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
-			"Patras","Lamia","Nafplion","Apolyton"]
+		"outerColor": [255,250,240],
+		"innerColor": [255,215,0],
+		"uniqueName": "Fae Round Table Domain",
+		"uniques": ["[+20]% Strength <for [All] units> <during a Golden Age>","[+2 Production] from every [Pasture]","[Great General] is earned [100]% faster"],
+	        "cities": ["Camelot","Londinium","York","Nottingham","Hastings","Canterbury","Coventry","Warwick","Newcastle","Oxford","Liverpool",
+			"Dover","Brighton","Norwich","Leeds","Reading","Birmingham","Richmond","Exeter","Cambridge","Gloucester",
+			"Manchester","Bristol","Leicester","Carlisle","Ipswich","Portsmouth","Berwick","Bath","Mumbles","Southampton",
+			"Sheffield","Salisbury","Colchester","Plymouth","Lancaster","Blackpool","Winchester","Hull"]
+
+	},
+	{
+                "name": "Mictlan Lostbelt",
+		"leaderName": ":Kukulkan",
+		"adjective": ["Mictlan"],
+		"startBias": ["Jungle"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Kukulkan",
+
+                "startIntroPart1": "The supreme god of Maya, you came to this planet 66 million years ago to transform the environment and provide an underground world for the ravaged life. However, this time you did not choose humans, but chose the more powerful Dinosaur, as the sun and UO protecting the nine layered world.",
+                "startIntroPart2": "The sun is about to go out.The giant spider that devoured the planet will wake up again. Great Kukulkan, can you reignite the sun this time?",
+
+		"declaringWar": "It seems it's not enough yet. Turn to microscopic dust!",
+		"attacked": "Fine. We'll understand each other by means of death… is what you're saying?",
+		"defeated": "Since I have a vessel, it's a self-explanatory logic that I can break. It's a shame.",
+		"introduction": "I'm Kukulkan.I'm the guardian of the water, wind, and land of the sea of trees.",
+
+		"neutralHello": "I'll use this as a reference.",
+		"hateHello": "You won't escape.",
+
+		"tradeRequest": "How far?",
+
+		"outerColor": [34,139,34],
+		"innerColor": [189,252,201],
+		"uniqueName": "Golden Sea of Trees Travelogue",
+		"uniques": ["[+30]% Strength <for [{Military} {Land}] units> <when fighting in [Friendly Land] tiles> <when below [40] HP>]","Empire enters a [8]-turn Golden Age <when wonders are built in capital>","[+2 Culture] from every [Jungle]"],
+	        "cities": ["Tenochtitlan","Teotihuacan","Tlatelolco","Texcoco","Tlaxcala","Calixtlahuaca","Xochicalco","Tlacopan",
+			"Atzcapotzalco","Tzintzuntzan","Malinalco","Tula","Tamuin","Teayo","Cempoala","Chalco","Tlalmanalco",
+			"Ixtapaluca","Huexotla","Tepexpan","Tepetlaoxtoc","Chiconautla","Zitlaltepec","Coyotepec","Tequixquiac",
+			"Jilotzingo","Tlapanaloya","Tultitan","Ecatepec","Coatepec","Chalchiuites","Chiauhita","Chapultepec",
+			"Itzapalapa","Ayotzinco","Iztapam"]
+
 	}
 ]
