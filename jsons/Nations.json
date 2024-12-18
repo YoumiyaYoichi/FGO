@@ -1,38 +1,150 @@
 [
 	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
+		"name": "Russian Lostbelt",
+		"leaderName": "Ivan the Terrible",
+		"adjective": ["Russian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Domination",
+		"personality": "Ivan the Terrible",
 		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
+		"startIntroPart1": "Great Ivan the Terrible, when the world was destroyed by the Great Ice Age, you used your wits and led the magicians to convert your people into Yaga, so as to escape the extreme winter, and when other civilizations gradually disappeared into the blizzard, only Russia remained.",
+		"startIntroPart2": "Great Tsar,Almighty Supreme Authority in your hands, can you spread the glory of Russia from Siberia to the whole world?",
 		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
+		"declaringWar": "My march will continue for eternity.God's beast crushes all underfoot.",
+		"attacked": "Fool!",
+		"defeated": "The Tsar...was mistaken...",
+		"introduction": "Where you're from and how you escaped the blizzard.",
 		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+		"neutralHello": "I concur.",
+		"hateHello": "Unforgiveable. Unforgiveable, unforgiveable, unforgiveable!",
+		
+		"tradeRequest": "Agree, or die.",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+		"outerColor": [30,37,187],
+		"innerColor": [255,255,255],
+		"uniqueName": "Permafrost Empire",
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory","[+2 Food] from every [Snow]"]
+		"cities": ["Yaga Moscow","Yaga St. Petersburg","Yaga Novgorod","Yaga Rostov","Yaga Yaroslavl","Yaga Yekaterinburg","Yaga Yakutsk","Yaga Vladivostok","Yaga Smolensk","Yaga Orenburg",
+			"Yaga Krasnoyarsk","Yaga Khabarovsk","Yaga Bryansk","Yaga Tver","Yaga Novosibirsk","Yaga Magadan","Yaga Murmansk","Yaga Irkutsk","Yaga Chita","Yaga Samara",
+			"Yaga Arkhangelsk","Yaga Chelyabinsk","Yaga Tobolsk","Yaga Vologda","Yaga Omsk","Yaga Astrakhan","Yaga Kursk","Yaga Saratov","Yaga Tula","Yaga Vladimir","Yaga Perm",
+			"Yaga Voronezh","Yaga Pskov","Yaga Starayarussa","Yaga Kostoma","Yaga Nizhniy Novgorod","Yaga Suzdal","Yaga Magnitogorsk"]
+	},
+	{
+		"name": "Scandinavian Lostbelt",
+		"leaderName": "Scáthach-Skaði",
+		"adjective": ["Scandinavian"],
+		"startBias": ["Tundra"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Scáthach-Skaði",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
+                "startIntroPart1": "The Norse goddess of winter.At the end of Götterdämmerung, Odin has integrated the goddess of Celts into your body, entrusting you with the last spark of the Nine Realms, so that you and the last humans can escape the destruction of Surtr.Under the rule of your superb Rune magic, the last Garden of Eden has been spared from the infestations of giants.",
+                "startIntroPart2": "The black sun is waking up, the unfinished Götterdämmerung will continue.Can you lead your people across the burning land of ice?",
+
+		"declaringWar": "Lower your head. Kneel before a god!",
+		"attacked": "I will allow it. You will end here...",
+		"defeated": "Is there someone...anyone...who will help me...?",
+		"introduction": "I am Scáthach-Skadi. I am a god...no, a kind of Divine Spirit, now. Normally, I would not become a Servant as a Heroic Spirit fighting for humanity.",
+
+		"neutralHello": "Did I step on something?",
+		"hateHello": "Is that an order?",
+
+		"tradeRequest": "I suggest you think about it.",
+
+		"outerColor": [255, 215, 0],
+		"innerColor": [255, 128, 0],
+		"uniqueName": "Eternal Frozen Fire",
+		"uniques": ["[+15]% Production when constructing [All] wonders [in all cities]","[-100]% Unhappiness from [Population] [in all cities]","Nullifies Growth [in all cities] <when at war>"],
+		"cities":["Edinburgh","Dublin","Cardiff","Truro","Nantes","Douglas","Glasgow","Cork","Aberystwyth",
+			"Penzance","Rennes","Ramsey","Inverness","Limerick","Swansea","St. Ives","Brest","Peel","Aberdeen",
+			"Belfast","Caernarfon","Newquay","Saint-Nazaire","Castletown","Stirling","Galway","Conwy",
+			"St. Austell","Saint-Malo","Onchan","Dundee","Londonderry","Llanfairpwllgwyngyll","Falmouth","Lorient"]
+	},
+	{
+		"name": "Chinese Lostbelt",
+		"leaderName": "Qin Shi Huang",
+		"adjective": ["Chinese"],
+		"preferredVictoryType": "Domination",
+		"personality": "Qin Shi Huang",
+
+                "startIntroPart1": "Immortal Emperor, you have unified the world with your unparalleled wisdom and coercion.The heroes of Chinese history are all sealed in your treasury, and the warriors of the Qin Empire are unrivaled everywhere they go. The Great Wall towering in low-Earth orbit threatens enemies from the universe.Your people sing and honor you.",
+                "startIntroPart2": "Great Qin Shi Huang, as Zhenren, can you continue the eternal Qin Empire and continue this utopia that was fought by Chinese soldiers with flesh and blood?",
+
+		"declaringWar": "As a new law, we declare: humans shall exist at the threshold of heaven and earth!",
+		"attacked": "Who do you think we are...fool!",
+		"defeated": "Playtime's over.",
+		"introduction": "The conqueror who transcended the Three Sovereigns and exceeded the Five Emperors...that is who Qin Shi Huang is. In other words...that is us!",
+
+		"neutralHello": "How incorrigible.",
+		"hateHello": "It's best you grovel.",
+
+		"tradeRequest": "This shall be bestowed upon you.",
+
+		"outerColor": [49,36,28],
+		"innerColor": [255,185,15],
+		"uniqueName": "The Synchronized Intellect",
+		"uniques": ["[+4 Science] [in all cities]","[+1 Science] [Great Improvement]","[-2 Culture] [in all cities]"],
+		"cities":["Xianyang","Beijing","Shanghai","Guangzhou","Nanjing","Chengdu","Hangzhou","Tianjin","Macau","Shandong",
+			"Kaifeng","Ningbo","Baoding","Yangzhou","Harbin","Chongqing","Luoyang","Kunming","Taipei","Shenyang",
+			"Taiyuan","Tainan","Dalian","Lijiang","Wuxi","Suzhou","Maoming","Shaoguan","Yangjiang","Heyuan","Huangshi",
+			"Yichang","Yingtian","Xinyu","Xinzheng","Handan","Dunhuang","Gaoyu","Nantong","Weifang","Xikang"]
+        },
+	{
+                "name": "Indian Lostbelt",
+		"leaderName": "Arjuna (Alter)",
+		"adjective": ["Indian"],
+		"startBias": ["Grassland"],
+		"preferredVictoryType": "Diplomatic",
+		"personality": "Arjuna (Alter)",
+
+                "startIntroPart1": "Son of Indra, you and your brother have created splendid legends – however, after Kurukshetra War, your mind begins to shift. To destroy evil, you absorb all the Indian gods and create a world of constant reincarnation.All evil will be wiped out again and again in reincarnation.",
+                "startIntroPart2": "The Final Dark God.It's just a little short of achieving your goal.Will you be able to cut off all evil and complete the final reincarnation?",
+
+		"declaringWar": "Saṃsāra of Genesis and Terminus.Give life to those who are good, judge those who are evil.Activate, sword of recursion, so they may perish.",
+		"attacked": "Let us begin...the end...",
+		"defeated": "So I am to meet my end here too... This is also...destiny...",
+		"introduction": "Arjuna...My existence is to destroy evil...And all evils shall be judged...",
+
+		"neutralHello": "The planet shall diminish, and evil will be judged by the sword...",
+		"hateHello": "Evil must be judged...",
+
+		"tradeRequest": "There is no need to feel lost...",
+
+		"outerColor": [238,130,238],
+		"innerColor": [128,0,128],
+		"uniqueName": "Omni-Divinity",
+		"uniques": ["[+2 Faith, +1 Culture] per [2] population [in capital]","[+2 Faith] [Great Improvement]","[+50]% Golden Age length"],
+		"cities":["Delhi","Mumbai","Vijayanagara","Pataliputra","Varanasi","Agra","Calcutta","Lahore","Bangalore","Hyderabad","Madurai","Ahmedabad",
+			"Kolhapur","Prayaga","Ayodhya","Indraprastha","Mathura","Ujjain","Gulbarga","Jaunpur","Rajagriha","Sravasti","Tiruchirapalli","Thanjavur",
+			"Bodhgaya","Kushinagar","Amaravati","Gaur","Gwalior","Jaipur","Karachi"]
+        },
+	{
+                "name": "Greek Lostbelt",
+		"leaderName": "Zeus",
+		"adjective": ["Greek"],
+		"startBias": ["Coast"],
+		"preferredVictoryType": "Cultural",
+		"personality": "Zeus",
+
+                "startIntroPart1": "King of the Gods, with the will of your home planet, you and the Olympian gods have come to this blue planet. You ruled the mythological era with the supreme lightning, gathering the power of the twelve gods to defeat the white giant and eliminate the opposing gods. Under your rule, the mythological era has flourished to this day.",
+                "startIntroPart2": "Thunder across the universe, can you maintain your rule and fulfill the will of your home planet in the face of new variables?",
+
+		"declaringWar": "I will use my omnipotence to incinerate it all!",
+		"attacked": "Behold my omnipotence!",
+		"defeated": "Absurd! To wound my omnipotent self... Just who are you!?",
+		"introduction": "I am Zeus! I am the omnipotent god who controls all creation from the heavens!",
+
+		"neutralHello": "Every Authority belongs to me.",
+		"hateHello": "Worship me!",
+
+		"tradeRequest": "Prostrate yourselves.",
+
+		"outerColor": [8,46,84],
+		"innerColor": [0,255,255],
+		"uniqueName": "One Who Crosses the Sea of Stars",
+		"uniques": ["[Great Scientist] is earned [50]% faster","[+15]% Strength <when fighting units from a Civilization with less Cities than you>","[+1 Science] from every [Coast] <after discovering [Education]>","[+1 Culture] from every [Atoll] <after discovering [Sientific Theory]>","[+1 Culture] from every [Coast] <after discovering [Radio]>"]
+		"cities":["Olympus","Athens","Sparta","Corinth","Argos","Knossos","Mycenae","Pharsalos","Ephesus","Halicarnassus","Rhodes",
+			"Eretria","Pergamon","Miletos","Megara","Phocaea","Sicyon","Tiryns","Samos","Mytilene","Chios",
+			"Paros","Elis","Syracuse","Herakleia","Gortyn","Chalkis","Pylos","Pella","Naxos",
+			"Larissa","Apollonia","Messene","Orchomenos","Ambracia","Kos","Knidos","Amphipolis",
+			"Patras","Lamia","Nafplion","Apolyton"]
 ]
